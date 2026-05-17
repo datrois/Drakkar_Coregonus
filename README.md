@@ -26,4 +26,9 @@ If no technology bias is found previously, preprocessing and cataloging will be 
 
 ### Preprocessing
 
+
+```bash
+drakkar preprocessing -f samples_infos.tsv -o /maps/projects/alberdilab/people/pgk128/drakkar_output_2 -r https://sid.erda.dk/share_redirect/P668viwaMO/Whitefish_analysis_BGI/Coregonus_sp_ref_genome/GCA_902810595.1_AWG_v2_genomic.fna.gz --fraction --nonpareil
+```
+
 ### Cataloging
