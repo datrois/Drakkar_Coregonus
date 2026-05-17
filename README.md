@@ -6,15 +6,19 @@ First step is to run preprocessing and cataloging.
 
 ## Technology Comparison
 
-Test run on 12 samples from Havgajavri lake designed for technology comparison. Samples will be assembled individually. Objective is to assess similarity between corresponding BGI and Illumina samples
+Test run on 12 samples from Havgajavri lake designed for technology comparison. Samples will be assembled individually. Objective is to assess similarity between corresponding BGI and Illumina samples.
 
 ### Preprocessing
 
+```bash
 drakkar preprocessing -f samples_tech_control_2.tsv -o /maps/projects/alberdilab/people/pgk128/drakkar_output -r https://sid.erda.dk/share_redirect/P668viwaMO/Whitefish_analysis_BGI/Coregonus_sp_ref_genome/GCA_902810595.1_AWG_v2_genomic.fna.gz --fraction --nonpareil
+```
 
 ### Cataloging
 
+```bash
 drakkar cataloging -f samples_tech_control_2.tsv -o /maps/projects/alberdilab/people/pgk128/drakkar_output -m individual
+```
 
 ## Actual Run
 
