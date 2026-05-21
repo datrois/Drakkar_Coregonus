@@ -32,3 +32,7 @@ drakkar preprocessing -f samples_infos.tsv -o /maps/projects/alberdilab/people/p
 ```
 
 ### Cataloging
+
+```bash
+drakkar cataloging -f samples_infos.tsv -o /maps/projects/alberdilab/people/pgk128/drakkar_output_2 -m assembly
+```
